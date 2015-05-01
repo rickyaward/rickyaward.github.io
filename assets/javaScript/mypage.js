@@ -1,4 +1,4 @@
-$(document).ready(function){
+$(document).ready(function)(){
 
 var myemail = "rickyaward@gmail.com";
     
@@ -24,4 +24,4 @@ var address = "3123 Anne Jolley CT Land O Lakes FL 34649";
     
     smoothScroll.init();
 
-};
+});
