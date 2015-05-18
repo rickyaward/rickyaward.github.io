@@ -1,0 +1,83 @@
+#myid {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  background: lightgray;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+#resume {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  background: lightgray;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.jumbotron {
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 0px;
+  background-image: url(http://www.drodd.com/images10/nature-wallpapers21.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  margin-top: 25px; }
+
+#whatCanDo {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  background: lightgray;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.container-fluid {
+  margin-right: 30px;
+  margin-left: 30px; }
+
+#myemail {
+  float: left; }
+
+#phone {
+  float: left; }
+
+#form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #323232;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  text-height: -50px; }
+
+#stats {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+#copyright {
+  display: flex;
+  align-items: center;
+  background: #191919;
+  color: white;
+  flex-wrap: wrap;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80px;
+  text-align: center;
+  padding-left: 20px; }
+
+#contact {
+  color: darkorange; }
+
+#customers {
+  margin-bottom: 200px;
+  margin-top: 200px; }
+
+#status {
+  margin-top: 100px;
+  margin-bottom: 175px; }

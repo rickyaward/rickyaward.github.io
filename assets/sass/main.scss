@@ -1,3 +1,18 @@
+@mixin bckgrd {
+	margin-top:200px;
+	margin-bottom:200px;
+	background: lightgray;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+  }
+#myid{
+	@include bckgrd;
+}
+
+#resume{
+	@include bckgrd;
+}
 .jumbotron{
 	text-align: center;
 	font-family: sans-serif;
@@ -8,7 +23,9 @@
     background-repeat: no-repeat;
     height: 650px;
     margin-top: 25px;
-    
+    }
+#whatCanDo{
+	@include bckgrd;
 }
 
 .container-fluid{
@@ -23,29 +40,6 @@
 	float: left;
 }
 
-
-#myid{
-	margin-top:200px;
-	margin-bottom:200px;
-	background: lightgray;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-#status{
-	margin-top: 100px;
-	margin-bottom: 175px;
-}
-#resume{
-	margin-top: 100px;
-	margin-bottom: 100px;
-	background:lightgray;
-	padding-bottom: 40px; 
-	padding-top: 40px;
-}
-#customers{
-	margin-bottom: 200px;
-	margin-top: 200px;
-}
 #form{
 	display:flex;
 	align-items: center;
@@ -64,8 +58,6 @@
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
-
-
 #copyright{
 	display: flex;
 	align-items: center;
@@ -79,22 +71,15 @@
 	text-align: center;
 	padding-left: 20px;
 }
-
-
-#whatCanDo{
-	margin-bottom: 100px;
-	margin-top: 200px;
-	background: lightgray;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
 #contact{
 	color: darkorange;
 }
 
-
-
-
-
-
-
+#customers{
+	margin-bottom: 200px;
+	margin-top: 200px;
+}
+#status{
+	margin-top: 100px;
+	margin-bottom: 175px;
+}
